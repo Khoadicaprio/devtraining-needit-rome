@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>short_description</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>onChange Alert</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	
+	g_form.setValue(short_discription, oldValue, oldValue);
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-22 15:17:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4a4db4707d20910454df4218c1ed0c6</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>onChange Alert</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_d4a4db4707d20910454df4218c1ed0c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-22 16:04:28</sys_updated_on>
+        <table>incident</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>701bebb7db401384563b7236bf96196d</instance_id>
+        <instance_name>dev49778</instance_name>
+        <name>sys_script_client_d4a4db4707d20910454df4218c1ed0c6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;short_description&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;onChange Alert&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	
+	g_form.setValue(short_discription, oldValue, oldValue);
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-22 15:17:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d4a4db4707d20910454df4218c1ed0c6&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;onChange Alert&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d4a4db4707d20910454df4218c1ed0c6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-22 16:04:28&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>759318812</payload_hash>
+        <record_name>onChange Alert</record_name>
+        <reverted_from/>
+        <source>a41c434307120910454df4218c1ed00a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-22 16:04:28</sys_created_on>
+        <sys_id>a7ef1fcf07d20910454df4218c1ed041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fb25f5d450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-22 16:04:28</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>afef1fcfe0d20910235757d57be09a40</update_guid>
+        <update_guid_history>afef1fcfe0d20910235757d57be09a40:759318812,6a9fd3cf0cd209106f86b530fb904d4f:-1265407078,ae6d974ffad209109f096a8c3915e1e1:-485469231,ffec574f6cd2091084ee4237d1d33b85:543224109,fcbc9b0fe3d20910b7b0b907c224478d:-959504487,2f7cdfcbe1d209103cac3e11675f5654:-119864305,422c930ff4d20910ce620c9268b11823:1094430785,7079574b67d2091067403ce213c6a9cb:-2109505918,6b49d34bd6d20910d47e60aafe770d50:1518560752,cd381f0b4ad2091047f1944d62997375:29728744,84d7db0bced20910458d9600c5021ea7:-946551376,eaa7d30b78d209100aa09b091517f12b:787596684,fd8653c7aad20910eecc2421bda94a8d:1584813176,df26db87c4d209109d3ff16430845286:824335086,ec6557875ad20910abc47f9091bc3f9d:-775102291,f11557cf959209105062bd323e8a323a:117918710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-22 16:07:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>22136175b25b4b989b5f61df26eb1590</sys_id>
+        <sys_metadata>d4a4db4707d20910454df4218c1ed0c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onChange Alert</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident">43f06622a5740110c0a0e1db2cdc95c9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_d4a4db4707d20910454df4218c1ed0c6</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d4a4db4707d20910454df4218c1ed0c6">a7ef1fcf07d20910454df4218c1ed041</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-22 16:07:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
